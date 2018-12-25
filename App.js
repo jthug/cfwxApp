@@ -16,8 +16,8 @@ const instructions = Platform.select({
     'Shake or press menu button for dev menu',
 });
 
-type Props = {};
-export default class App extends Component<Props> {
+
+export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -29,6 +29,7 @@ export default class App extends Component<Props> {
   }
 }
 
+//Test
 const styles = StyleSheet.create({
   container: {
     flex: 1,
